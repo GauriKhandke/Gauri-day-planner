@@ -65,8 +65,11 @@ body {
     color: white;
   }
   
-  .saveBtn i:hover {
+  /* .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+  } */
+  .saveBtn :hover {
+    font-size: 24px;
+    transition: all .3s ease-in-out;
   }
-  

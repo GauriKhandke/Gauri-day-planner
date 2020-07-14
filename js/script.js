@@ -22,7 +22,7 @@ function generateTimeBlock(){
 
         // Hour Block
         var hourText = $("<h5>").addClass("text-right").text(time);
-        var hourBlock = $("<div>").addClass("hour bg-light col-1").append(hourText);
+        var hourBlock = $("<div>").addClass("hour bg-light col-2").append(hourText);
 
         // TextArea Block
         var textBlock = $("<textarea>").addClass("col-8 description overflow-auto text-dark").text("").attr("id",time);
