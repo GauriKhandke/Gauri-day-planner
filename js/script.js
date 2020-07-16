@@ -22,15 +22,15 @@ function generateTimeBlock(){
 
         // Hour Block
         var hourText = $("<h5>").addClass("text-right").text(time);
-        var hourBlock = $("<div>").addClass("hour bg-light col-md-1 col-sm-2").append(hourText);
+        var hourBlock = $("<div>").addClass("hour bg-light col-2").append(hourText);
 
         // TextArea Block
-        var textBlock = $("<textarea>").addClass("description overflow-auto text-dark col-md-8 col-sm-8").text("").attr("id",time);
+        var textBlock = $("<textarea>").addClass("description overflow-auto text-dark col-8").text("").attr("id",time);
         setTimeBlockBackground(textBlock, hour, ampm);
 
         // Save Button block
         var saveIcon = $("<span>").addClass("fa fa-save");
-        var saveButton = $("<button>").addClass("btn saveBtn time-block col-md-1 col-sm-2").append(saveIcon);
+        var saveButton = $("<button>").addClass("btn saveBtn time-block col-1").append(saveIcon);
 
         // Append hourBlock, textBlock and saveButton to one block
         block.append(hourBlock);
