@@ -1,21 +1,33 @@
-# Gauri-day-planner
-UW Coding Bootcamp HW : 05 Third-Party APIs : Day Planner
+# Day Planner
+![MIT License](https://img.shields.io/badge/license-MIT-green)
 
-# Goal
+# Description
 
-Create a simple calendar application that allows user to save events for each hour of the day.
+Simple calendar application that allows the user to save events for each hour of the day from 9AM to 5 PM.
+
+## Deployed Website : 
+[Day Planner](https://gaurikhandke.github.io/Gauri-day-planner/)
+
+# Table of Contents
+* [Demo](#demo)
+* [Technology](#technology)
+* [Features](#features)
+* [License](#license)
+* [Contribution](#contribution)
+* [Questions](#questions)
 
 # Motivation
 
 * Employee with busy schedule should be able to add important events to a daily planner to manage time effectively.
-
 * Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity.
 
 # Demo : 
-
 ![Day Planner](images/DayPlanner.gif)
 
-# Tech/Frameworks Used : 
+# Application Preview : 
+![Day Planner](images/DayPlanner.png)
+
+# Technology: 
 
 #### [jQuery](https://jquery.com/) : 
 * jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
@@ -45,5 +57,14 @@ Create a simple calendar application that allows user to save events for each ho
 
 4. Each hour is color coded to reflect whether the time slot is in the past, present or future. This changes depending on the time of the day.
 
-# Deployed Website : 
-https://gaurikhandke.github.io/Gauri-day-planner/
+# License
+
+This project is licensed under MIT License.
+
+# Contribution
+
+Please let me know how I can improve this project. Issues and pull requests are always welcome.
+
+# Questions :
+* If you have any questions about the repo, please submit issue [here](https://github.com/GauriKhandke/Gauri-day-planner/issues/new) or [email](mailto:khandkegauri@gmail.com) me.
+
